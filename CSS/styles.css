@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/*----------INDEX.HTML--------------*/
+/*HEADER*/
+
+header{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    transition: all 200ms ease;
+}
+
+header nav ul li a:hover{
+    color: #764321;
+    font-size: 17px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin: 30px;
+}
+
+.header-localidad a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    transition: all 100ms ease;
+}
+
+.header-localidad a:hover{
+    color: #7e7e7e;
+}
+
+/*MAIN*/
+
+.section1{
+    background-color: #864c24;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section1 .section1-texto{
+    color: #f4f4f4;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section1-img{
+    margin-bottom: -4px;
+}
+
+.section1 .section1-texto h2{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section1 .section1-texto p{
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+}
+
+.section2{
+    background-color: #9e7050;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.section2-texto h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section2-texto p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section2-texto button{
+    background-color: #9e7050;
+    color: black;
+    padding: 6px 22px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 270ms ease;
+}
+
+.section2-texto button:hover{
+    cursor: pointer;
+}
+
+.section2-texto button:focus{
+    background-color:black;
+    color: #9e7050;
+}
+
+.section2-img img{
+    margin-bottom: -4px;
+}
+
+
+/*FOOTER*/
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.footer-nosotros ul li a,
+.footer-contactos ul li a {
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    font-size: 14px;
+    transition: all 100ms ease;
+}
+
+.footer-nosotros ul li a:hover,
+.footer-contactos ul li a:hover{
+    color: black;
+}
+
+.footer-nosotros h3,
+.footer-contactos h3{
+    font-size: 22px;
+}
+
+.footer-nosotros ul li,
+.footer-contactos ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.footer-derechos{
+    text-align: center;
+}
+
+
+/*-------------CONTACTO.HTML-----------*/
+
+
+
+
+/*---------------MENU.HTML--------------*/
+
+
+
+
+
+/*-------------NOSOTROS.HTML------------*/
+
+
+
+
+
+/*------------UBICACION.HTML-------------*/
