@@ -3,10 +3,10 @@
 -h2 para subtitulos
 -<!-- para comentarios
 -<main> contenido principal del codigo (aca dentro iria section, etc)
--<nav> zona navegable
+-<nav> zona navegable del header (ul, li)
 -<section> para las secciones de la pagina (ej: seccion de img o de un titulo y subtitulo, etc)
 -<iframe> para los mapas en la pagina
--| target="_blank" |para que cuando abra un enlace se abra una pestana nueva
+-| target="_blank" | para que cuando abra un enlace se abra una pestana nueva
 -en la etiqueta video, "controls" hace que se reproduzca el video y autoplay que se ponga play.
 -USAR LOOP PARA QUE SIEMPRE ESTE EN FUNCIONAMIENTO EL VIDEO
 -display INLINE para que sea elemento en linea (no ocupe tod el ancho) y BLOCK (ocupa todo)
@@ -21,6 +21,8 @@
 -ALT + Z para achicar la linea de codigo en vscode
 -"<strong>" para poner en negrita las palabras de la oracion
 -"flex-wrap" para hacer un salto de linea cuando se necesite para ser responsive (BOOTSRAP)
+-usar "span" para los h1 o los p, etc, y quiera cambiar el color, tamano, etc de una psrte del texto, no todo.
+-
 -
 -
 -
