@@ -1,0 +1,36 @@
+.contacto-titulo{
+    h1{
+        text-align: center;
+        align-items: center;
+        background-color: #704629;
+        padding: 70px 0px;
+        color: #f5f5f5;
+        font-weight: bolder;
+        font-size: 57px;
+    }
+}
+
+.contacto-info{
+    .contacto-info-titulo{
+        margin: 17px 0px;
+        text-align: center;
+        p{
+            font-size: 22px;
+            font-weight: lighter;
+        }
+    }
+    .contacto-info-in{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+       .info-in-1,.info-in-2{
+        h4{
+            font-size: 23px;
+        }
+        p{
+            font-size: 18px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+       } 
+    }
+}

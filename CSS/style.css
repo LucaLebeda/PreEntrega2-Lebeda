@@ -189,16 +189,29 @@ header {
   color: #0b0b0b;
 }
 
+.redes-sociales {
+  text-align: center;
+  margin: 15px auto;
+}
+.redes-sociales a {
+  color: #443025;
+  font-size: 34px;
+  padding: 20px;
+  border-radius: 80px;
+}
+
 .footer-derechos {
   text-align: center;
+}
+.footer-derechos .footer-info p {
+  color: #919191;
 }
 
 .nosotros-info .titulo h1 {
   text-align: center;
   align-items: center;
   background-color: #704629;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 60px 0px;
   color: #f5f5f5;
   font-weight: bolder;
   font-size: 57px;
@@ -213,6 +226,10 @@ header {
   align-items: center;
   margin: 60px auto;
   font-size: 20px;
+  view-timeline-name: --info-p;
+  view-timeline-axis: block;
+  animation-timeline: --info-p;
+  animation-name: info--p;
 }
 
 .main {
@@ -247,6 +264,37 @@ header {
   border-right: 50px solid #815D49;
 }
 
+.contacto-titulo h1 {
+  text-align: center;
+  align-items: center;
+  background-color: #704629;
+  padding: 70px 0px;
+  color: #f5f5f5;
+  font-weight: bolder;
+  font-size: 57px;
+}
+
+.contacto-info .contacto-info-titulo {
+  margin: 17px 0px;
+  text-align: center;
+}
+.contacto-info .contacto-info-titulo p {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.contacto-info .contacto-info-in {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+}
+.contacto-info .contacto-info-in .info-in-1 h4, .contacto-info .contacto-info-in .info-in-2 h4 {
+  font-size: 23px;
+}
+.contacto-info .contacto-info-in .info-in-1 p, .contacto-info .contacto-info-in .info-in-2 p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .row {
   width: 50%;
   margin: auto;
@@ -276,6 +324,27 @@ header {
   height: 195px;
 }
 
+@keyframes info--p {
+  0% {
+    opacity: 0;
+    scale: 25%;
+  }
+  50% {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+@keyframes smain {
+  0% {
+    background-color: #815D49;
+  }
+  50% {
+    background-color: #4d362a;
+  }
+  100% {
+    background-color: #815D49;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -483,7 +552,9 @@ header {
   }
   .main:hover .main-info {
     border-right: none;
-    border-bottom: 50px dashed #815D49;
+    animation-name: sbbmain;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
   }
 }
 @media (max-width: 760px) {

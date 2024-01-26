@@ -44,7 +44,23 @@
     }
 }
 
+.redes-sociales{
+    text-align: center;
+    margin: 15px auto;
+    a{
+        color: #443025;
+        font-size: 34px;
+        padding: 20px;
+        border-radius: 80px;
+    }
+}
+
 .footer-derechos{
     text-align: center;
+    .footer-info{
+        p{
+            color: #919191;
+        }
+    }
 }
 

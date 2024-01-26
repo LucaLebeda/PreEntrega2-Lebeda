@@ -268,7 +268,9 @@
         background-color: #4d362a;
         .main-info{
             border-right: none;
-            border-bottom: 50px dashed #815D49;
+            animation-name: sbbmain;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
         }
     }
     

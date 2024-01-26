@@ -1,0 +1,22 @@
+@keyframes info--p{
+    0%{
+        opacity: 0;
+        scale: 25%;
+    }
+    50%{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+@keyframes smain{
+    0%{
+        background-color: #815D49;
+    }
+    50%{
+        background-color: #4d362a;
+    }
+    100%{
+        background-color: #815D49;
+    }
+}
