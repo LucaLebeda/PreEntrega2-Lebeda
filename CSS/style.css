@@ -581,5 +581,23 @@ header {
     height: 250px !important;
   }
 }
+@media (max-width: 500px) {
+  .contacto-info-in {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .contacto-info-titulo p {
+    font-size: 17px !important;
+  }
+  .contacto-info-in h4 {
+    font-size: 19px !important;
+  }
+  .contacto-info-in p {
+    font-size: 16px !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
