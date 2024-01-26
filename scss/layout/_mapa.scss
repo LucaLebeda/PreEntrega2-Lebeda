@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    background-color: #815D49;
+    transition: all 500ms ease;
+    .main-info{
+        color: #e8e6e4;
+        text-align: right;
+        border-right: 50px solid #4d362a;
+        padding-right: 20px;
+        margin-right: 50px;
+        h3{
+            font-size: 60px;
+            font-weight: bolder;
+            text-decoration: overline;
+        }
+        p{
+            font-size: 40px;
+            margin-top: 34px;
+        }
+    }
+}
+.main:hover{
+    background-color: #4d362a;
+    .main-info{
+        border-right: 50px solid #815D49;
+    }
+}
+
+

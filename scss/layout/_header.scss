@@ -1,0 +1,55 @@
+$primary-bg-color: #f4f4f4;
+$nav-link-color: black;
+$nav-link-hover-color: #764321;
+$nav-link-font-family: 'Fira Sans', sans-serif;
+$nav-link-font-weight: 600;
+$nav-link-transition: all 200ms ease;
+$nav-item-margin: 30px;
+$header-localidad-color: black;
+$header-localidad-hover-color: #7e7e7e;
+$header-localidad-transition: all 100ms ease;
+
+// Header
+header {
+  background-color: $primary-bg-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+// Navbar
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+
+  .nav-item {
+    margin: $nav-item-margin;
+
+    .nav-link {
+      color: $nav-link-color;
+      font-family: $nav-link-font-family;
+      font-weight: $nav-link-font-weight;
+      transition: $nav-link-transition;
+
+      &:hover {
+        color: $nav-link-hover-color;
+      }
+    }
+  }
+}
+
+// Header localidad
+.header-localidad {
+  a {
+    text-decoration: none;
+    color: $header-localidad-color;
+    font-family: $nav-link-font-family;
+    font-weight: $nav-link-font-weight;
+    transition: $header-localidad-transition;
+
+    &:hover {
+      color: $header-localidad-hover-color;
+    }
+  }
+}

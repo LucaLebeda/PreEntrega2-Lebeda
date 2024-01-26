@@ -1,0 +1,32 @@
+.row{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    .col{
+        .card{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            align-items: center;
+            background-color: #52310E;
+            border-radius: 120px;
+            transition: all 180ms ease;
+            img{
+                width: 120px;
+                border-radius: 120px;
+            }
+            .card-body{
+                h5{
+                    color: #f4f4f4;
+                    font-size: 16px;
+                }
+            }
+        }
+        .card:hover{
+            width: 195px;
+            height: 195px;
+        }
+    }
+}
