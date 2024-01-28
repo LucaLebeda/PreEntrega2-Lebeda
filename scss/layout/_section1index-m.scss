@@ -1,0 +1,8 @@
+.section1-texto{
+    h2{
+        @include section1index( 50px , 100% , center , 20px)
+    }
+    p{
+        @include section1index( 19px , 100% , center , 10px )
+    }
+}
