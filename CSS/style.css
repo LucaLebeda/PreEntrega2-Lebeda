@@ -76,7 +76,8 @@ header {
   font-size: 20px;
   margin-bottom: 20px;
 }
-.section2 .section2-texto button {
+.section2 .section2-texto #button {
+  text-decoration: none;
   background-color: #9e7050;
   color: black;
   padding: 6px 22px;
@@ -86,10 +87,8 @@ header {
   font-weight: 600;
   transition: all 270ms ease;
 }
-.section2 .section2-texto button:hover {
+.section2 .section2-texto #button:hover {
   cursor: pointer;
-}
-.section2 .section2-texto button:focus {
   background-color: black;
   color: #9e7050;
 }
@@ -347,6 +346,7 @@ header {
     width: 70%;
   }
   .section2 {
+    padding-bottom: 14px;
     display: flex;
     flex-direction: column-reverse;
   }
