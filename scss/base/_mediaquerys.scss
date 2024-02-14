@@ -1,0 +1,337 @@
+// -------------INDEX------------------
+@media (max-width: 965px){
+    .section1{
+        flex-direction: column;
+        .section1-img{
+            img{
+                border-radius: 6px;
+            }
+        }
+        .section1-texto{
+            width: 70%;
+        }
+    }
+
+    .section2{
+        padding-bottom: 14px;
+        display: flex;
+        flex-direction: column-reverse;
+        .section2-texto{
+            button{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .section1{
+        .section1-texto{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 15px;
+                width: 100%;
+            }
+         }
+        .section1-img{
+            img{
+                width: 420px;
+            }
+        }
+    }
+
+
+    .section2 {
+        .section2-img{
+            img{
+                width: 420px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 420px){
+    .section1{
+        .section1-texto{
+            p{
+                font-size: 14px;
+                width: 100%; 
+            }
+        }
+        .section1-img{
+            display: none;
+        }
+    }
+
+    .section2{
+        .section2-texto{
+            h2{
+                margin-top: 30px;
+            }
+            button{
+                margin-bottom: 30px;
+            }
+        }
+        .section2-img{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    .footer-links{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-contactos{
+        margin-top: 30px;
+    }
+}
+
+// ----------MENU------------
+
+@media (max-width: 791px){
+    .card{
+        width: 150px;
+        height: 150px;
+    }
+    .card img{
+        width: 90px;
+        border-radius: 120px;
+    }
+    .card-body h5{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px){
+    .row{
+        width: 35%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+
+@media (max-width: 490px){
+    .row{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: 380px){
+    .row{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: 337px){
+    .row{
+        width: 73%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+//-----------------NOSOTROS-------------
+@media (max-width: 800px){
+    .img-nosotros{
+        img{
+            width: 590px;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .info-p{
+        p{
+            font-size: 17px!important;
+        }
+    }
+    .img-nosotros{
+        display: none;
+    }
+}
+
+@media (max-width: 490px){
+    .info-p{
+        p{
+            font-size: 13px!important;
+            margin: 30px auto!important;
+        }
+    }
+}
+
+//-------------------------UBICACION------------------------
+
+@media (max-width:1736px){
+    .main-info{
+        h3{
+            font-size: 48px!important;
+        }
+        p{
+            font-size: 37px!important;
+        }
+    }
+}
+@media (max-width:1644px){
+    .main-info{
+        h3{
+            font-size: 45px!important;
+        }
+        p{
+            font-size: 33px!important;
+        }
+    }
+}
+@media (max-width:1558px){
+    .main-info{
+        h3{
+            font-size: 40px!important;
+        }
+        p{
+            font-size: 29px!important;
+        }
+    }
+}
+@media (max-width:1438px){
+    .main-info{
+        p{
+            font-size: 27px!important;
+        }
+    }
+}
+@media (max-width:1377px){
+    .main-info{
+        h3{
+            font-size: 40px!important;
+        }
+        p{
+            font-size: 24px!important;
+        }
+    }
+    .mapa{
+        iframe{
+            width: 700px;
+            height: 500px;
+        }
+    }
+}
+@media (max-width:1200px){
+    .main{
+        flex-direction: column;
+        .main-info{
+            border-right: none;
+            border-bottom: 35px dashed #4d362a;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            h3{
+                font-size: 40px!important;
+                text-decoration: none;
+            }
+            p{
+                font-size: 24px!important;
+            }
+        }
+        .mapa{
+            iframe{
+                margin-top: 20px;
+                width: 700px;
+                height: 500px;
+            }
+        }
+    }
+    .main:hover{
+        background-color: #4d362a;
+        .main-info{
+            border-right: none;
+            animation-name: sbbmain;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+        }
+    }
+    
+}
+
+@media (max-width:760px){
+    .mapa{
+        display: flex;
+        justify-content: center;
+        iframe{
+            width: 500px!important;
+            height: 420px!important;
+        }
+    }
+}
+
+@media (max-width:510px){
+    .main{
+        .main-info{
+            h3{
+                font-size: 30px!important;
+            }
+            p{
+                font-size: 17px!important;
+            }
+        }
+    }
+}
+
+@media (max-width:300px){
+    .mapa{
+        iframe{
+            width: 250px!important;
+            height: 250px!important;
+        }
+    }
+}
+
+// -------------CONTACTOS-------------
+
+@media (max-width:500px){
+    .contacto-info-in{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:400px){
+    .contacto-info-titulo{
+        p{
+            font-size: 17px!important;
+        }
+    }
+    .contacto-info-in{
+        h4{
+            font-size: 19px!important;
+        }
+        p{
+            font-size: 16px!important;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+//utilities
+@import "./utilities/extend.scss";
+@import "./utilities/mixin.scss";
+@import "./utilities/variables.scss";
+
+// layout
+@import "./layout/header.scss";
+@import "./layout/section1index.scss";
+@import "./layout/section1index-m.scss";
+@import "./layout/section2index.scss";
+@import "./layout/section1menu.scss";
+@import "./layout/section2menu.scss";
+@import "./layout/footer.scss";
+@import "./layout/nosotros.scss";
+@import "./layout/mapa.scss";
+@import "./layout/contacto.scss";
+
+// components
+@import "./components/cardmenu.scss";
+@import "./components/animations.scss";
+
+
+// vendors
+@import "./vendors/fontawesome.scss";
+
+// base
+@import "./base/reset.scss";
+@import "./base/mediaquerys.scss";

@@ -1,0 +1,6 @@
+@mixin section1index ($size,$width,$alinear,$m-b){
+    font-size: $size;
+    width: $width;
+    text-align: $alinear;
+    margin-bottom: $m-b;
+}
