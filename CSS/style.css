@@ -76,6 +76,25 @@ header {
   font-size: 20px;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+.section2 .section2-texto #button {
+  text-decoration: none;
+  background-color: #9e7050;
+  color: black;
+  padding: 6px 22px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 270ms ease;
+}
+.section2 .section2-texto #button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #9e7050;
+}
+>>>>>>> 21c7024803bc1d975a9fbeefb5b3aee4f9067109
 
 .menu h1 {
   background-color: #52310E;
